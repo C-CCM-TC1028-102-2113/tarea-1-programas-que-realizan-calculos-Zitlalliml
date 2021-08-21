@@ -4,9 +4,9 @@ def main():
 print ('Dame los minutos: ')
 m = int(input())
     
-t = float( m * 34.2 / 5.7) #realiza la conversión de mm a cm
+t = float((m * 6)*5.7) #realiza la conversión de mm a cm
     
-print ('Centímentros recorridos: ' + str(t))
+print ('Centímentros recorridos: ' + str(round(t,4)))
     
     
     pass
